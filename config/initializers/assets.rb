@@ -13,5 +13,5 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 Rails.application.config.assets.precompile += %w( pages/logo2 )
-Rails.config.serve_static_assets = true
-Rails.config.assets.compile = true
+Rails.application.config.assets.precompile += %w( pages/androidapp.jpg )
+Rails.application.config.assets.precompile += %w( pages/pic1b.jpg )
