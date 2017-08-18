@@ -8,10 +8,10 @@ Rails.application.config.assets.version = '1.0'
 # Add Yarn node_modules folder to the asset load path.
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
+
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 Rails.application.config.assets.precompile += %w( pages/logo2 )
-Rails.application.config.assets.precompile += %w( pages/androidapp.jpg )
-Rails.application.config.assets.precompile += %w( pages/pic1b.jpg )
+Rails.application.config.serve_static_assets = true
