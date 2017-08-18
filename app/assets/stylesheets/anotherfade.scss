@@ -26,7 +26,7 @@ body {
 }
 
 .android {
-  background-image: url("images/pages/androidapp.jpg");
+  background-image: url("/pages/androidapp.jpg");
 }
 
 
@@ -150,7 +150,7 @@ div.grad {
   border: 3px solid #2098d1;
   border-radius: 0;
 	font-size: 22px;
-	/**box-shadow: 0 5px 0 0 #a20101; **/
+	box-shadow: 0 5px 0 0 #2098d1; 
   margin-bottom: 10px;
 }
 .btn-danger {
