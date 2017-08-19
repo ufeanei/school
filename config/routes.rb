@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get "/laravel"  => "pages#laravel"
   get "/railscourse"  => "pages#railscourse"
   get "/diploma"  => "pages#diploma"
+  get "/gims"  => "pages#gims"
+
 
   root 'pages#hello'
 end

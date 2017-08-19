@@ -16,9 +16,12 @@
   <body>
   	    <div class="toppanel">
             <div class="container showcase">
-                <div class="logo col-md-2 col-md-offset-0 col-xs-6 col-xs-offset-3">
+              <%= link_to root_path do %>
+  <div class="logo col-md-2 col-md-offset-0 col-xs-6 col-xs-offset-3">
                    <%= image_tag('pages/logo2', class: 'img-responsive') %>
                 </div>
+<% end %>
+                
                 <div class="page-title col-md-10 col-xs-12">
                 <button class="btn btn-info btn-lg pull-right hidden-xs hidden-sm">Apply here</button>
                     <h4 class="page-title ">International Institute for Professional Android, Web and IT Systems</h4>
