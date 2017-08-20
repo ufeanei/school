@@ -21,11 +21,12 @@
           <%= f.text_field :other_names, class: "form-control" %>
           <span class='error-span'><%= @user.errors[:other_names][0] if @user.errors[:other_names] %></span>
         </div>
+         
         <div class="form-group">
-          <%= label_tag "course", 'Select the course you are applying for' %>
-          <%= select_tag("courseid", options_from_collection_for_select(@courses, "id", "name"), prompt: "Choose course", class:"form-control addr-field" )%>
+          <%= f.label "course", 'Select the course you are applying for'  %>
+          <%= f.collection_select :course_ids, @courses, :id, :name, {prompt: "choose course"}, {class:"form-control addr-field"}%> 
           
-        </div>  
+        </div>
         <div class="form-group">
           <%= f.label :qualification, 'Your highest qualification' %>
           <%= f.text_field :qualification, class: "form-control" %>
@@ -36,6 +37,15 @@
           <%= f.text_field :nationality, class: "form-control" %>
           <span class='error-span'><%= "#{@user.errors[:nationality][0]} #{@user.errors[:nationality][1]} " if @user.errors[:nationality] %></span>
         </div>
+
+        <div class="form-group">
+          <%= f.label :phone, 'Phone Number' %>
+          <%= f.text_field :phone, class: "form-control" %>
+          <span class='error-span'><%= @user.errors[:phone][0] if @user.errors[:phone] %></span>
+       </div>
+       <br>
+       <br>
+       We need the following to create your account in our system.
          <input type="text" style="display:none"> <!-- hidden inputs added to cancel autocomplete for email and password-->
          <input type="password" style="display:none">
         <div class="form-group">
@@ -55,11 +65,7 @@
           <%= f.password_field :password_confirmation, class: "form-control" %>
           <span class='error-span'><%= "#{@user.errors[:password_confirmation][0]}" if @user.errors[:password_confirmation] %></span>
         </div> 
-        <div class="form-group">
-          <%= f.label :phone, 'Phone Number' %>
-          <%= f.text_field :phone, class: "form-control" %>
-          <span class='error-span'><%= @user.errors[:phone][0] if @user.errors[:phone] %></span>
-       </div>
+        
           
         <br/>
          
