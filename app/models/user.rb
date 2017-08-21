@@ -22,7 +22,7 @@ class User < ActiveRecord::Base
   has_secure_password
 
   validates :password, presence: {message: "must be filled"}, on: :create, length: { minimum: 6, message: "Password must be at least 6 letters"}, allow_nil: true
-
+  validates :course_ids,  presence: { message: "must be filled"} 
     #used to create the digest of any string
   def self.digest(string) 
     BCrypt::Password.create(string, cost: 8)

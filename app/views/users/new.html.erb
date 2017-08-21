@@ -3,7 +3,7 @@
   <div class="row well new-user-wrapper col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-xs-12 ">  
     
     <div class="col-md-12 registerform col-xs-12" novalidate>
-      <p> Please fill in the form below. We have made the process simple. After applying present yourself on campus with the orignal of your highest obtained certificate </p>
+      <p class="grey-text"> Please fill in the form below. We have made the process simple. After applying present yourself on campus with the orignal of your highest obtained certificate </p>
      <br>
      <br>
       <h3 class="text-center title">Application for admission</h3>
@@ -25,7 +25,7 @@
         <div class="form-group">
           <%= f.label "course", 'Select the course you are applying for'  %>
           <%= f.collection_select :course_ids, @courses, :id, :name, {prompt: "choose course"}, {class:"form-control addr-field"}%> 
-          
+          <span class='error-span'><%= "#{@user.errors[:course_ids][0]} #{@user.errors[:course_ids][1]} " if @user.errors[:course_ids] %></span>
         </div>
         <div class="form-group">
           <%= f.label :qualification, 'Your highest qualification' %>
@@ -45,7 +45,7 @@
        </div>
        <br>
        <br>
-       We need the following to create your account in our system.
+       <p class="grey-text">We need the following to create your account in our system.</p>
          <input type="text" style="display:none"> <!-- hidden inputs added to cancel autocomplete for email and password-->
          <input type="password" style="display:none">
         <div class="form-group">
@@ -70,7 +70,7 @@
         <br/>
          
         <%= f.submit "Send Application", class: "btn btn-success btn-block register-button" %> 
-        <hr class="hr-new-user"/>
+        <br>
         
       <% end %>
     </div>
