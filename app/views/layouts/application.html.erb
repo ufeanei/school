@@ -71,7 +71,22 @@ background-color: #fff;
 margin-top: 50px;
 border: 1px solid #aaaaaa;
 }
+/* ----------some front page styles--------------- */
 
+.course-intro h4 {
+    margin-top: 33px;
+    color: #e43a3a;
+    font-weight: 600;
+}
+.message-div {
+    position:fixed; 
+    top: 70px; 
+    left: 0px; 
+    width: 100%;
+    z-index:9999; 
+    border-radius:0px;
+    
+}
 
          </style>
     </head>
@@ -99,6 +114,7 @@ border: 1px solid #aaaaaa;
         </div>
          
         <div class="grad col-sm-12"></div>
+       <%= render 'layouts/message' %>
     <%= yield %>
 
     
