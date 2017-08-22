@@ -300,7 +300,9 @@ div.grad {
 }
 
 
-
+.android {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(pages/androidapp.jpg);
+}
 
 .webdesign {
   /*background-image: url(pages/androidapp.jpg); */
@@ -310,13 +312,13 @@ div.grad {
 .ror {
   
   /*background-image: url(pages/androidapp.jpg); */
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), asset_url('ruby.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(pages/ruby.jpg);
 }
 
 .php {
   
   /*background-image: url(pages/androidapp.jpg); */
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), asset_url('php.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(php.jpg);
 }
 
 
