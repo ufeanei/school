@@ -258,10 +258,11 @@ div.grad {
 /********************************/
 /*       Slides backgrounds     */
 /********************************/
+/*
 #first-slider .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), asset_url('pic1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(pages/pic1.jpg);
     background-size: cover;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat; */ 
     
 }
 #first-slider .slide2 {
@@ -297,10 +298,7 @@ div.grad {
   color: #da3939;
 }
 
-.android {
-  /*background-image: url(pages/androidapp.jpg); */
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(pages/androidapp.jpg);
-}
+
 
 
 .webdesign {
