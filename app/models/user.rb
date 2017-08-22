@@ -10,12 +10,12 @@ class User < ActiveRecord::Base
   
   
   
-  validates :qualification,  presence: { message: "must be filled"}
-  validates :phone,  presence: { message: "must be filled"}
-  validates :family_name,  presence: { message: "must be filled"}
-  validates :other_names,  presence: { message: "must be filled"}
+  validates :qualification,  presence: { message: "select your qualification"}
+  validates :phone,  presence: { message: "give us your phone number"}
+  validates :family_name,  presence: { message: "Family name please"}
+  validates :other_names,  presence: { message: "Other names please"}
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
-  validates :email, presence: { message: "mmust be filled"},
+  validates :email, presence: { message: "email must be filled"},
                     format: { with: VALID_EMAIL_REGEX, message: ", email invalid" },
                     uniqueness: { case_sensitive: false, message: "email already in use." }
 

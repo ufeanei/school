@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get "/railscourse"  => "pages#railscourse"
   get "/diploma"  => "pages#diploma"
   get "/gims"  => "pages#gims"
-  resources :users , except: [:index, :update, :destroy]
+  resources :users , except: [:update, :destroy]
 
 
   root 'pages#hello'

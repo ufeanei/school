@@ -3,7 +3,6 @@ class UsersController < ApplicationController
   def new
     @user = User.new()
     @courses = Course.all
-    
   end
 
   def create
@@ -19,6 +18,7 @@ class UsersController < ApplicationController
   end
 
   def index
+    @users = User.all
   end
 
   private

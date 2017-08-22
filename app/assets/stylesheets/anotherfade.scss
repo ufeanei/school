@@ -299,28 +299,28 @@ div.grad {
 
 .android {
   /*background-image: url(pages/androidapp.jpg); */
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), asset_url('androidapp.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(pages/androidapp.jpg);
 }
 
 
 .webdesign {
   /*background-image: url(pages/androidapp.jpg); */
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(pages/frontend);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(pages/frontend.jpg);
 }
 
 .ror {
-  {
+  
   /*background-image: url(pages/androidapp.jpg); */
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), asset_url('ruby.jpg');
 }
 
 .php {
-  {
+  
   /*background-image: url(pages/androidapp.jpg); */
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), asset_url('php.jpg');
 }
-}
-}
+
+
 .mobile-content {
 	 padding-top: 80px;
 }
