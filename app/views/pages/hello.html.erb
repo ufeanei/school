@@ -173,16 +173,18 @@
         </header>
         <!-- Header End -->
 
-
-           <div class="show-mobile col-sm-12 col-xs-12 text-center">
-            <div class="mobile-content">
-                <h3>We Are The Tech Institute You Have Been Waiting For</h3>
-                <%= link_to new_user_path do %>
-                  <button  class="btn btn-lg btn-danger" >Click Here to Apply</button>
-                <% end %>
-                <p>Admission currently going on</p> 
-            </div>   
-        </div>         
+          <div id = "mobile-div">
+                <div class="show-mobile col-sm-12 col-xs-12 text-center">
+                    <div class="mobile-content">
+                        <h3>We Are The Tech Institute You Have Been Waiting For</h3>
+                        <%= link_to new_user_path do %>
+                        <%= link_to "Click Here to Apply", new_user_path, class: "btn btn-lg btn-danger" %>
+                          
+                        <% end %>
+                        <p>Admission currently going on</p> 
+                    </div>   
+               </div>    
+           </div>     
        
 
 
