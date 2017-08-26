@@ -291,7 +291,7 @@ div.grad {
 	 background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
-    color: #fff;
+    
     font-weight: 300
 }
 
@@ -307,6 +307,10 @@ div.grad {
 
 .mobile-content {
 	 padding-top: 80px;
+}
+
+.mobile-content h3 {
+  color: #fff;
 }
 .mobile-content p {
 	margin-top: 13px;

@@ -20,7 +20,11 @@
   color: #fff;
   
 }
-
+.mobile-content h3 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-weight: 600
+}
 
  .android {
   
@@ -127,23 +131,22 @@ border: 1px solid #aaaaaa;
   
 
   <body>
-  	    <div class="toppanel">
-            <div class="container showcase">
-              <%= link_to root_path do %>
-  <div class="logo col-md-2 col-md-offset-0 col-xs-6 col-xs-offset-3">
-                   <%= image_tag('pages/logo2', class: 'img-responsive') %>
-                </div>
-<% end %>
+  	<div class="toppanel">
+      <div class="container showcase">
+        <%= link_to root_path do %>
+          <div class="logo col-md-2 col-md-offset-0 col-xs-6 col-xs-offset-3">
+            <%= image_tag('pages/logo2', class: 'img-responsive') %>
+          </div>
+        <% end %>
                 
-                <div class="page-title col-md-10 col-xs-12">
-                  <%= link_to 'Apply Here', new_user_path, class: "btn btn-info btn-lg pull-right hidden-xs hidden-sm" %>
-                    <h4 class="page-title ">International Institute for Professional Android, Web and IT Systems</h4>
-                    <div class="h-bar hidden-lg hidden-md"><i class="fa fa-book"></i></div>
-                    <h5>RAISING TECH AND IT GURUS</h5>
-                            
-                </div>
-            </div>
+        <div class="page-title col-md-10 col-xs-12">
+          <%= link_to 'Apply Here', new_user_path, class: "btn btn-info btn-lg pull-right hidden-xs hidden-sm" %>
+            <h4 class="page-title ">International Institute for Professional Android, Web and IT Systems</h4>
+            <div class="h-bar hidden-lg hidden-md"><i class="fa fa-book"></i></div>
+            <h5>RAISING TECH AND IT GURUS</h5>                   
         </div>
+      </div>
+    </div>
          
         <div class="grad col-sm-12"></div>
        <%= render 'layouts/message' %>
