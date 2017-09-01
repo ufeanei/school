@@ -1,7 +1,7 @@
 /*
 Bootstrap Image Carousel Slider with Animate.css
 Code snippet by Hashif (http://hashif.com) for Bootsnipp.com
-Image credits: unsplash.com
+
 */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
 
@@ -143,16 +143,7 @@ div.grad {
   animation-delay: 3s;
 }
 
-.btn-info {
-	padding:10px 18px;
-	background-color: #d9d9d9;
-	color: #2098d1;
-  border: 3px solid #2098d1;
-  border-radius: 0;
-	font-size: 22px;
-	box-shadow: 0 5px 0 0 #2098d1; 
-  margin-bottom: 10px;
-}
+
 .btn-danger {
 	box-shadow: 0 5px 0 0 #a20101;
 }
@@ -288,30 +279,21 @@ div.grad {
 
 .show-mobile {
 	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(pages/pic4.jpeg);
-	 background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    
-    font-weight: 300
+	background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px; 
+  font-weight: 300
 }
 
 .error-span {
   color: #da3939;
 }
 
-
-
-
-
-
-
 .mobile-content {
 	 padding-top: 80px;
 }
 
-.mobile-content h3 {
-  color: #fff;
-}
+
 .mobile-content p {
 	margin-top: 13px;
 	color: #ffff00;
