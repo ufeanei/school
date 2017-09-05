@@ -5,14 +5,14 @@
     <div class="col-md-12 registerform col-xs-12" novalidate>
       <p class="grey-text"> Please fill in the form below. After applying present yourself on campus with the orignal of your highest obtained certificate </p>
       <br>
-      <p class="grey-text"> Highly recommended that you have a lab top. Developers are not trained in computer labs!</p>
+      <p class="grey-text"> It is highly recommended that you have a lab top. Developers are not trained in computer labs</p>
 
     
      <br>
-      <h3 class="text-center title">Application for admission</h3>
+      <h3 class="text-center title">Application for Admission</h3>
       <%= form_for @user do |f| %>
         <% if @user.errors.any? %>
-          <div class="alert alert-danger">Pls correct the errors in red</div>
+          <div class="alert alert-danger">Please correct the errors in red</div>
         <% end %>
         <div class="form-group">
           <%= f.label :family_name, 'Family Name' %>

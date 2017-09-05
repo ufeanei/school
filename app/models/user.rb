@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
   
   
   
-  validates :qualification,  presence: { message: "select your qualification"}
+  validates :qualification,  presence: { message: "Pls fill your qualification"}
   validates :phone,  presence: { message: "give us your phone number"}
   validates :family_name,  presence: { message: "Family name please"}
   validates :other_names,  presence: { message: "Other names please"}
@@ -22,7 +22,7 @@ class User < ActiveRecord::Base
   has_secure_password
 
   validates :password, presence: {message: "must be filled"}, on: :create, length: { minimum: 6, message: "Password must be at least 6 letters"}, allow_nil: true
-  validates :course_ids,  presence: { message: "must be filled"} 
+  validates :course_ids,  presence: { message: "Select your course"} 
     #used to create the digest of any string
   def self.digest(string) 
     BCrypt::Password.create(string, cost: 8)
