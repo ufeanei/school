@@ -1,0 +1,160 @@
+<h3>Linux System Administration Course (Red Hat/Ubuntu Platform)</h3>
+<h4>Course Objectives</h4>
+<p>
+	This course builds your knowledge and skill in areas of system administration common across a wide range of environments and deployment scenarios. The skills covered in this course are the foundation and core for system administration across all Red Hat or Ubuntu products.
+</p>
+
+<h4>Course Outline</h4>
+<div class="well">
+	<h5>Understand and use essential tools</h5>
+	<p>
+	•   Access a shell prompt and issue commands with correct syntax<br>
+	•	Use input-output redirection (>, >>, |, 2>, etc.)<br>
+	•	Use grep and regular expressions to analyze text<br>
+	•	Access remote systems using ssh<br>
+	•	Log in and switch users in multiuser targets<br>
+	•	Archive, compress, unpack, and uncompress files using tar, star, gzip, and bzip2<br>
+	•	Create and edit text files<br>
+	•	Create, delete, copy, and move files and directories<br>
+	•	Create hard and soft links<br>
+	•	List, set, and change standard ugo/rwx permissions<br>
+	•	Locate, read, and use system documentation including man, info, and files in /usr/share/doc<br>
+
+	</p>
+	<h5>Operate running systems</h5>
+	<p>
+	•	Boot, reboot, and shut down a system normally<br>
+	•	Boot systems into different targets manually
+	•	Interrupt the boot process in order to gain access to a system<br>
+	•	Identify CPU/memory intensive processes, adjust process priority with renice, and kill processes<br>
+	•	Locate and interpret system log files and journals<br>
+	•	Access a virtual machine's console<br>
+	•	Start and stop virtual machines<br>
+	•	Start, stop, and check the status of network services<br>
+	•	Securely transfer files between systems<br>
+
+	</p>
+
+	<h5>Configure local storage</h5>
+	•	List, create, delete partitions on MBR and GPT disks<br>
+	•	Create and remove physical volumes, assign physical volumes to volume groups, and create and  delete logical volumes<br>
+	•	Configure systems to mount file systems at boot by Universally Unique ID (UUID) or label<br>
+	•	Add new partitions and logical volumes, and swap to a system non-destructively<br>
+	<h5>Create and configure file systems</h5>
+	•	Create, mount, unmount, and use vfat, ext4, and xfs file systems<br>
+	•	Mount and unmount CIFS and NFS network file systems<br>
+	•	Extend existing logical volumes<br>
+	•	Create and configure set-GID directories for collaboration<br>
+	•	Create and manage Access Control Lists (ACLs)<br>
+	•	Diagnose and correct file permission problems<br>
+	<h5>Deploy, configure, and maintain systems</h5>
+	•	Configure networking and hostname resolution statically or dynamically<br>
+	•	Schedule tasks using at and cron<br>
+	•	Start and stop services and configure services to start automatically at boot<br>
+	•	Configure systems to boot into a specific target automatically<br>
+	•	Install Red Hat Enterprise Linux systems as virtual guests<br>
+	•	Configure systems to launch virtual machines at boot<br>
+	•	Configure network services to start automatically at boot<br>
+	•	Configure a system to use time services<br>
+	•	Install and update software packages from Red Hat Network, a remote repository, or from the local file system<br>
+	•	Update the kernel package appropriately to ensure a bootable system<br>
+	•	Modify the system bootloader<br>
+	<h5>Manage users and groups</h5>
+	•	Create, delete, and modify local user accounts<br>
+	•	Change passwords and adjust password aging for local user accounts<br>
+	•	Create, delete, and modify local groups and group memberships<br>
+	•	Configure a system to use an existing authentication service for user and group information<br>
+	<h5>Manage security</h5>
+	•	Configure firewall settings using firewall-config, firewall-cmd, or iptables<br>
+	•	Configure key-based authentication for SSH
+	•	Set enforcing and permissive modes for SELinux
+	•	List and identify SELinux file and process context
+	•	Restore default file contexts
+	•	Use boolean settings to modify system SELinux settings
+	•	Diagnose and address routine SELinux policy violations
+	<h5><strong>RHCE</strong></h5>
+	<h5>System configuration and management</h5>
+	•	Use network teaming or bonding to configure aggregated network links between two Red Hat Enterprise Linux systems
+	•	Configure IPv6 addresses and perform basic IPv6 troubleshooting
+	•	Route IP traffic and create static routes
+	•	Use firewalld and associated mechanisms such as rich rules, zones and custom rules, to implement packet filtering and configure network address translation (NAT)
+	•	Configure a system to authenticate using Kerberos
+	•	Configure a system as either an iSCSI target or initiator that persistently mounts an iSCSI target
+	•	Produce and deliver reports on system utilization (processor, memory, disk, and network)
+	•	Use shell scripting to automate system maintenance tasks
+	<h5>Network services</h5>
+	<p>Network services are an important subset of the exam objectives. RHCE candidates should be capable of meeting the following objectives for each of the network services listed below:</p>
+	<p>
+	•	Install the packages needed to provide the service
+	•	Configure SELinux to support the service
+	•	Use SELinux port labeling to allow services to use non-standard ports
+	•	Configure the service to start when the system is booted
+	•	Configure the service for basic operation
+	•	Configure host-based and user-based security for the service
+	</p>
+	<h5>HTTP/HTTPS</h5>
+	<p>
+	•	Configure a virtual host
+	•	Configure access restrictions on directories
+	•	Deploy a basic CGI application
+	•	Configure group-managed content
+	•	Configure TLS security
+	</p>
+	<h5>DNS</h5>
+	<p>
+	•	Configure a caching-only name server
+	•	Troubleshoot DNS client issues
+	</p>
+	<h5>NFS</h5>
+	<p>
+	•	Provide network shares to specific clients
+	•	Provide network shares suitable for group collaboration
+	•	Use Kerberos to control access to NFS network shares
+	</p>
+
+	<h5>SMB</h5>
+	<p>
+	•	Provide network shares to specific clients
+	•	Provide network shares suitable for group collaboration
+	</p>
+	<h5>SMTP</h5>
+	<p>
+	•	Configure a system to forward all email to a central mail server
+	</p>
+	<h5>SSH</h5>
+	<p>
+	•	Configure key-based authentication
+	•	Configure additional options described in documentation
+	</p>
+	<h5>NTP</h5>
+	<p>
+	•	Synchronize time using other NTP peers
+	</p>
+	<h5>Database services</h5>
+	<p>
+	•	Install and configure MariaDB
+	•	Backup and restore a database
+	•	Create a simple database schema
+	•	Perform simple SQL queries against a database
+	</p>
+</div>
+
+<h4>Course Details</h4>
+ <table class="table table-striped table-bordered">
+    <tbody>
+        <tr>
+            <th>Course Start Date</th>
+            <td>to be announced</td>
+        </tr>
+         
+        <tr>
+            <th>Estimated Duration</th>
+            <td>6 months</td>
+        </tr>
+        
+        <tr>
+            <th>Course Price</th>
+            <td>CFA 300 000</td>
+        </tr>
+    </tbody>
+ </table>
