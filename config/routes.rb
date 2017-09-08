@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   get "/railscourse"  => "pages#railscourse"
   get "/diploma"  => "pages#diploma"
   get "/gims"  => "pages#gims"
+  get "/hnt"   => "pages#hnt"
+  get "/ccna"   => "pages#ccna"
+  get "/mcse"   => "pages#mcse"
+  get "/linux"   => "pages#linux"
   resources :users , except: [:update, :destroy]
 
 

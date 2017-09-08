@@ -21,6 +21,18 @@ class PagesController < ApplicationController
 
   def diploma
   end
+
+  def hnt
+  end
+
+  def ccna
+  end
+
+  def msce
+  end
+  
+  def linux
+  end
     
  
 
