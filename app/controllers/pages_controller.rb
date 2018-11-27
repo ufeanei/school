@@ -13,7 +13,7 @@ class PagesController < ApplicationController
   def laravel
   end
 
-  def railscourse
+  def nodecourse
   end
 
   def gims

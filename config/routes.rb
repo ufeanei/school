@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   get "/android"  => "pages#android"
   get "/laravel"  => "pages#laravel"
-  get "/railscourse"  => "pages#railscourse"
+  get "/nodecourse"  => "pages#nodecourse"
   get "/diploma"  => "pages#diploma"
   get "/gims"  => "pages#gims"
   get "/hnt"   => "pages#hnt"

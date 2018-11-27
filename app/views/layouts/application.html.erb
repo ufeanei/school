@@ -60,7 +60,7 @@
             .php {
               
               /*background-image: url(pages/androidapp.jpg); */
-              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/p6.jpg);
+              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/phone2.jpg);
             }
 
             .register-button:hover {
@@ -81,6 +81,8 @@
               font-weight: 100
 
              }
+
+             .dta {font-weight: 300!important;}
              
 
             .title {
@@ -99,6 +101,8 @@
               padding-top: 5px
             }
             }
+
+            .dinfo {font-weight: 300; color: red;}
 
             .infos{
               font-size: 18px;
@@ -152,6 +156,12 @@
   color: red;
   font-weight: 300;
 }
+
+.course .item {
+  border: 1px solid #aaa;
+  border-radius: 0;
+
+}
          </style>
     </head>
 
@@ -176,7 +186,7 @@
       </div>
     </div>
          
-        <div class="grad col-sm-12"></div>
+        <!--<div class="grad col-sm-12"></div>-->
        <%= render 'layouts/message' %>
     <%= yield %>
 
