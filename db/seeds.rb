@@ -8,16 +8,16 @@
 
 courses= Course.create([
 
-  #{name: 'Professional Diploma in Android and Web Systems' }, 
-  #{name: 'Global IT Infrastructure Management Specialist' }, 
+  {name: 'Professional Diploma in Android and Web Systems' }, 
+  {name: 'Professional Diploma Mobile phones, Laptop and Flat screen TV Technology '},
   #{name: 'Android App Development'},
   #{name: 'Professional Mobile First Web Design'}, 
   #{name: 'Web Development with PHP and Laravel'}, 
-  #{name: 'Web Development with Ruby on Rails'}, 
-  #{name: 'Hardware and Network Technician '},
-  #{name: 'Network Adminstration (CCNA)'},
-  #{name: 'Microsoft Server Administration '},
-  #{name: 'Linux System Administration(Red Hat/Ubuntu)'},
+  #{name: 'Web Development with Node, Express and MongoDB'}, 
+  {name: 'Bsc in Web Systems'},
+  {name: 'Bsc in Mobile computing'},
+  {name: 'BTech in Mobile phones, Laptop and Flat screen TV Technology '},
+  
   
   ])
 

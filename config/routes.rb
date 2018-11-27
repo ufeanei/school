@@ -12,6 +12,9 @@ Rails.application.routes.draw do
   get "/ccna"   => "pages#ccna"
   get "/mcse"   => "pages#mcse"
   get "/linux"   => "pages#linux"
+  get "/bscweb"   => "pages#bscweb"
+  get "/bscmobile"   => "pages#bscmobile"
+  get "/btechrepair"  => "pages#btechrepair"
   resources :users , except: [:update, :destroy]
 
 

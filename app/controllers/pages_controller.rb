@@ -25,10 +25,13 @@ class PagesController < ApplicationController
   def hnt
   end
 
-  def ccna
+  def bscmobile
   end
 
-  def msce
+  def bscweb
+  end
+  
+  def btechrepair
   end
   
   def linux
