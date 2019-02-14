@@ -7,16 +7,19 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 courses= Course.create([
-
-  {name: 'Professional Diploma in Android and Web Systems' }, 
-  {name: 'Professional Diploma Mobile phones, Laptop and Flat screen TV Technology '},
-  #{name: 'Android App Development'},
-  #{name: 'Professional Mobile First Web Design'}, 
-  #{name: 'Web Development with PHP and Laravel'}, 
-  #{name: 'Web Development with Node, Express and MongoDB'}, 
-  {name: 'Bsc in Web Systems'},
-  {name: 'Bsc in Mobile computing'},
-  {name: 'BTech in Mobile phones, Laptop and Flat screen TV Technology '},
+#
+#  {name: 'Professional Diploma in Android and Web Systems(1yr)' }, 
+#  {name: 'Android App Development with Java/Kotlin(4 months)'},
+#  {name: 'Mobile First Responsive Web Design(4 months)'}, 
+#  {name: 'Web Development with PHP, Laravel and MySQL(4 months)'}, 
+#  {name: 'Web Development with Node, Express and MongoDB(4 months)'},
+#  {name: 'Web Development with Ruby on Rails(4 months)'}, 
+#  {name: 'Bsc in Web and Mobile Systems'},
+#  {name: 'Bsc in Mobile Computing'},
+#  {name: 'Bsc in Computer Software Engineering'},
+#  {name: 'Bsc in Computer Systems and Network Administration'},
+#  {name: 'HND Software Engineering and Computing'},
+   
   
   
   ])

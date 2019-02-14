@@ -39,21 +39,31 @@
             .ror {
               
               
-              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/ruby.jpg);*/
+              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/ruby.jpg); 
+            }
+
+            .it{
+              
+              
+              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/itpic2.jpg); 
             }
 
             .hnt {
-              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/comptia.jpg);*/
+              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/comptia.jpg); 
             }
 
             .ccna {
-              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/ccna.jpg);*/
+              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/ccna.jpg); 
             }
             .microsoft {
-              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/microsoft.jpg);*/
+              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/microsoft.jpg); 
             }
             .linux {
-              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/linux.jpg);*/
+              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/linux.jpg); 
+            }
+
+            .software {
+              background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url(assets/pages/software.jpg);
             }
 
 
@@ -87,6 +97,14 @@
 
             .title {
               margin-bottom: 30px;
+            }
+            
+            .short {
+              text-align: left;
+            }
+
+            .certificates h4 {
+              text-align: left;
             }
 
             @media (max-width: 600px) {
@@ -163,6 +181,12 @@
 
 }
 
+.title-line {
+  border-bottom: 2px solid #000;
+  width: 70%;
+  margin: 0 0;
+}
+
 .top-bar {border-bottom: 1px solid #ccc; border-top: 1px solid #ccc;}
          </style>
     </head>
@@ -179,11 +203,12 @@
           </div>
         <% end %>
                 
-        <div class="page-title col-md-10 col-xs-12">
+        <div class="col-md-10 col-xs-12">
           <%= link_to 'Apply Here', new_user_path, class: "btn btn-info btn-lg pull-right hidden-xs hidden-sm" %>
             <h4 class="page-title ">International Institute for Professional Android, Web and IT Systems</h4>
-            <div class="h-bar hidden-lg hidden-md"><i class="fa fa-book"></i></div>
-            <h5>RAISING TECH AND IT GURUS</h5>                   
+            
+            <div class="h-bar hidden-lg hidden-md" ><i class="fa fa-book"></i></div>
+            <h5>RAISING TECH GURUS</h5>                   
         </div>
       </div>
     </div>

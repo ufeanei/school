@@ -7,14 +7,14 @@ Rails.application.routes.draw do
   get "/laravel"  => "pages#laravel"
   get "/nodecourse"  => "pages#nodecourse"
   get "/diploma"  => "pages#diploma"
-  get "/gims"  => "pages#gims"
-  get "/hnt"   => "pages#hnt"
-  get "/ccna"   => "pages#ccna"
-  get "/mcse"   => "pages#mcse"
-  get "/linux"   => "pages#linux"
+  get "/hnd"   => "pages#hnd"
+   
+  get "rail" => "pages#rail"
   get "/bscweb"   => "pages#bscweb"
   get "/bscmobile"   => "pages#bscmobile"
-  get "/btechrepair"  => "pages#btechrepair"
+   
+  get "/bscsoftware"  => "pages#bscsoftware"
+  get "/bsccsna"  => "pages#bsccsna"
   resources :users , except: [:update, :destroy]
 
 

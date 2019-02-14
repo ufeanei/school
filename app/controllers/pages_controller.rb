@@ -22,7 +22,7 @@ class PagesController < ApplicationController
   def diploma
   end
 
-  def hnt
+  def hnd
   end
 
   def bscmobile
@@ -31,10 +31,15 @@ class PagesController < ApplicationController
   def bscweb
   end
   
-  def btechrepair
-  end
+  def rail
+  end 
   
-  def linux
+   
+
+  def bscsoftware
+  end
+
+  def bsccsna
   end
     
  
