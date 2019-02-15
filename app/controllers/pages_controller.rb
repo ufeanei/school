@@ -16,8 +16,7 @@ class PagesController < ApplicationController
   def nodecourse
   end
 
-  def gims
-  end
+   
 
   def diploma
   end
