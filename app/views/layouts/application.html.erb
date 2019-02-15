@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
          <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
          <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>  
-         <%= favicon_link_tag 'pages/logo2' %> 
+         <%= favicon_link_tag 'pages/iipawislogo.png' %>  
          <style type="text/css">
          @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:500,600,700");
           .register-button {
@@ -98,7 +98,9 @@
             .title {
               margin-bottom: 30px;
             }
-            
+            .error-span {
+              color: red;
+            }
             .short {
               text-align: left;
             }
@@ -134,9 +136,7 @@
               margin-bottom: -1px;
             }
 
-            .error-span {
-              color: red;
-            }
+            
             /* ----------login page--------------- */
 
             .login-form { 
@@ -199,7 +199,7 @@
       <div class="container showcase">
         <%= link_to root_path do %>
           <div class="logo col-md-2 col-md-offset-0 col-xs-6 col-xs-offset-3">
-            <%= image_tag('pages/logo2', class: 'img-responsive') %>
+            <%= image_tag('pages/iipawislogo.png', class: 'img-responsive') %>  
           </div>
         <% end %>
                 
