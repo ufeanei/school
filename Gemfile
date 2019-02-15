@@ -26,6 +26,8 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'pry-rails', group: [:development, :test]
 
+# to see memory usage 
+gem 'derailed', group: :development
 #use font awesome for nice fonts
 gem 'font-awesome-sass', '4.5.0'
 # Use CoffeeScript for .coffee assets and views
