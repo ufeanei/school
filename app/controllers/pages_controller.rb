@@ -1,7 +1,6 @@
 class PagesController < ApplicationController
 
-  def hello
-    
+  def hello 
   end
 
   def webdesign
@@ -15,8 +14,6 @@ class PagesController < ApplicationController
 
   def nodecourse
   end
-
-   
 
   def diploma
   end
@@ -32,16 +29,11 @@ class PagesController < ApplicationController
   
   def rail
   end 
-  
-   
 
   def bscsoftware
   end
 
   def bsccsna
   end
-    
- 
-
   
 end
